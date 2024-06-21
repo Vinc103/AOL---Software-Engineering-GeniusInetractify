@@ -20,3 +20,5 @@ Join our community forums to discuss topics, share knowledge, and collaborate wi
 GeniusInteractify - Empowering Students for a Brighter Future
 
 ![SE](https://github.com/Vinc103/AOL---Software-Engineering-GeniusInetractify/assets/170650075/d074e91b-5801-4276-b748-aeee7d2e01f7)
+
+Link Figma : https://www.figma.com/design/5aHwCe5cANRf2lWj7GnOIf/Kelompok-10---Sofware-Engineering---Website-Pembelajaran-Interaktif?node-id=0-1&t=HDTMao3aVCfIrPjW-1
