@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-jacques-francois: "Jacques Francois";
+    --font-jacques-francois-shadow: "Jacques Francois Shadow";
+    --font-inter: Inter;
+    --font-judson: Judson;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-xl: 20px;
+    --font-size-6xl: 25px;
+    --font-size-11xl: 30px;
+    --font-size-base: 16px;
+    --font-size-26xl: 45px;
+    --font-size-31xl: 50px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-deepskyblue-100: #38aaeb;
+    --color-whitesmoke: #f0ecec;
+    --color-steelblue: #206085;
+  
+    /* Border radiuses */
+    --br-7xs: 6px;
+  }
+  
+  
+  /* global.css */
+  body {
+    margin: 0;
+    font-family: 'Judson', serif;
+  }
+  
+  header {
+    background: linear-gradient(to right, #38aaeb, #0057b7); /* Gradient for Navbar */
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .logo .highlight {
+    font-family: 'Jacques Francois Shadow', serif;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+  
+  .vector-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .intro-section {
+    background-color: rgba(56, 170, 235, 0.74);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px; /* Rounding the corners */
+    margin: 2rem 0; /* Adding some space above and below */
+    max-width: 80%; /* Optional: Control the width of the section */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .intro-section h1 {
+    font-family: 'Jacques Francois', serif;
+    color: #004080;
+  }
+  
+  .categories {
+    padding: 2rem;
+  }
+  
+  .category {
+    margin-bottom: 2rem;
+  }
+  
+  .category h2 {
+    font-family: 'Jacques Francois', serif;
+    color: #004080;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.33% - 1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: calc(33.33% - 1rem);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures image doesn't cause text reflow */
+  }
+  
+  .card a {
+    color: #000; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the link cover the entire card */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .card a:hover {
+    color: #38aaeb; /* Optional: Change color on hover for better UX */
+  }
+  
+  .card-content {
+    padding: 1rem;
+    text-align: center;
+    color: #000; /* Ensure text inside cards is black as well */
+  }
+  
+  .view-all {
+    color: #38aaeb;
+    text-decoration: underline;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #0057b7, #38aaeb); /* Gradient for Footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer-content {
+    font-size: 1rem;
+  }
+  
