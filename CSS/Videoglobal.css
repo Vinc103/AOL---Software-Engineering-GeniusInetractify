@@ -38,7 +38,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #38aaeb, #0057b7); /* Gradient for Navbar */
+  background: linear-gradient(180deg, rgb(75, 175, 232) 0%, rgb(176, 202, 217) 100%); /* Gradient for Navbar */
   color: #fff;
   padding: 1rem;
 }
@@ -170,7 +170,7 @@ header {
 }
 
 footer {
-  background: linear-gradient(to right, #0057b7, #38aaeb); /* Gradient for Footer */
+  background: linear-gradient(180deg, rgb(75, 175, 232) 0%, rgb(176, 202, 217) 100%);/* Gradient for Footer */
   color: #fff;
   text-align: center;
   padding: 1rem;
