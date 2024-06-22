@@ -1,810 +1,809 @@
 .video-child {
-    position: absolute;
-    top: 146px;
-    left: 15px;
-    border-radius: 15px;
-    background-color: rgba(56, 170, 235, 0.74);
-    width: 1405px;
-    height: 132px;
-  }
-  .matematika-tka,
-  .video-based-learning {
-    font-size: var(--font-size-31xl);
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    color: var(--color-steelblue);
-    text-align: left;
-    display: inline-block;
-    height: 46px;
-  }
-  .video-based-learning {
-    position: absolute;
-    top: 193px;
-    left: 43px;
-    font-family: var(--font-jacques-francois);
-    width: 578px;
-  }
-  .matematika-tka {
-    top: 310px;
-    left: 61px;
-    width: 624px;
-  }
-  .english-tps,
-  .lecturer-only,
-  .matematika-tka {
-    position: absolute;
-    font-family: var(--font-jacques-francois);
-  }
-  .english-tps {
-    top: 991px;
-    left: 84px;
-    font-size: var(--font-size-31xl);
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    color: var(--color-steelblue);
-    text-align: left;
-    display: inline-block;
-    width: 578px;
-    height: 46px;
-  }
-  .lecturer-only {
-    top: 267px;
-    left: 1234px;
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 126px;
-    height: 38px;
-  }
-  .rectangle-div,
-  .video-child1,
-  .video-child2,
-  .video-inner,
-  .video-item {
-    position: absolute;
-    top: 388px;
-    left: 61px;
-    background-color: var(--color-whitesmoke);
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 394px;
-    height: 449px;
-  }
-  .rectangle-div,
-  .video-child1,
-  .video-child2,
-  .video-inner {
-    left: 1001px;
-  }
-  .rectangle-div,
-  .video-child1,
-  .video-child2 {
-    left: 543px;
-  }
-  .video-child1,
-  .video-child2 {
-    top: 1069px;
-    left: 61px;
-  }
-  .video-child2 {
-    left: 543px;
-  }
-  .image-20-icon,
-  .video-child3 {
-    position: absolute;
-    left: 1001px;
-    width: 394px;
-  }
-  .image-20-icon {
-    top: 390px;
-    height: 223px;
-    object-fit: cover;
-  }
-  .video-child3 {
-    top: 1069px;
-    background-color: var(--color-whitesmoke);
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    height: 449px;
-  }
-  .lihat-semua,
-  .lihat-semua1 {
-    position: absolute;
-    top: calc(50% - 617px);
-    left: calc(50% - 647px);
-    font-size: var(--font-size-26xl);
-    text-decoration: underline;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    color: var(--color-deepskyblue-100);
-    text-align: center;
-  }
-  .lihat-semua1 {
-    top: calc(50% + 64px);
-  }
-  .image-1-icon,
-  .image-4-icon,
-  .image-5-icon,
-  .image-7-icon {
-    position: absolute;
-    top: 391px;
-    left: 61px;
-    width: 394px;
-    height: 222px;
-    object-fit: cover;
-  }
-  .image-4-icon,
-  .image-5-icon,
-  .image-7-icon {
-    top: 1069px;
-    left: 543px;
-  }
-  .image-5-icon,
-  .image-7-icon {
-    left: 1001px;
-  }
-  .image-5-icon {
-    top: 1068px;
-    left: 63px;
-  }
-  .geografis-tka {
-    position: absolute;
-    top: 1667px;
-    left: 74px;
-    font-size: var(--font-size-31xl);
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    font-family: var(--font-jacques-francois);
-    color: var(--color-steelblue);
-    text-align: left;
-    display: inline-block;
-    width: 578px;
-    height: 46px;
-  }
-  .video-child4 {
-    position: absolute;
-    top: 1745px;
-    left: 51px;
-    background-color: var(--color-whitesmoke);
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 394px;
-    height: 449px;
-  }
-  .konsep-essensial-geografi {
-    position: absolute;
-    top: 1986px;
-    left: 60px;
-    font-size: var(--font-size-11xl);
-    display: flex;
-    text-align: left;
-    align-items: center;
-    width: 353px;
-    height: 32px;
-  }
-  .video-child5,
-  .video-child6 {
-    position: absolute;
-    top: 1745px;
-    left: 533px;
-    background-color: var(--color-whitesmoke);
-    border: 1px solid var(--color-black);
-    box-sizing: border-box;
-    width: 394px;
-    height: 449px;
-  }
-  .video-child6 {
-    left: 991px;
-  }
-  .lihat-semua2 {
-    position: absolute;
-    top: calc(50% + 740px);
-    left: calc(50% - 657px);
-    font-size: var(--font-size-26xl);
-    text-decoration: underline;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    color: var(--color-deepskyblue-100);
-    text-align: center;
-  }
-  .image-2-icon,
-  .image-33-icon,
-  .image-8-icon {
-    position: absolute;
-    top: 391px;
-    left: 543px;
-    width: 394px;
-    height: 222px;
-    object-fit: cover;
-  }
-  .image-33-icon,
-  .image-8-icon {
-    top: 801px;
-    left: 71px;
-    width: 30px;
-    height: 30px;
-  }
-  .image-33-icon {
-    top: 795px;
-    left: 1016px;
-  }
-  .image-29-icon,
-  .image-30-icon,
-  .image-31-icon,
-  .image-9-icon {
-    position: absolute;
-    top: 1479px;
-    left: 73px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .image-30-icon,
-  .image-31-icon,
-  .image-9-icon {
-    left: 558px;
-  }
-  .image-31-icon,
-  .image-9-icon {
-    left: 1018px;
-  }
-  .image-9-icon {
-    top: 1745px;
-    left: 535px;
-    width: 390px;
-    height: 225px;
-  }
-  .students-focus-on,
-  .students-learn-speed,
-  .the-purpose-of {
-    position: absolute;
-    top: calc(50% - 157px);
-    left: calc(50% - 646px);
-    font-size: var(--font-size-xl);
-    display: flex;
-    align-items: center;
-    width: 367px;
-    height: 108px;
-  }
-  .students-focus-on,
-  .students-learn-speed {
-    top: calc(50% - 153px);
-    left: calc(50% - 164px);
-    font-size: var(--font-size-base);
-  }
-  .students-learn-speed {
-    left: calc(50% + 296px);
-  }
-  .aljabar,
-  .english-vocabulary,
-  .integral-calculus,
-  .logaritma,
-  .purpose-of-the,
-  .reading-faster {
-    position: absolute;
-    top: calc(50% - 231px);
-    left: calc(50% - 646px);
-    font-size: var(--font-size-11xl);
-    display: flex;
-    align-items: center;
-    width: 367px;
-    height: 108px;
-  }
-  .aljabar,
-  .english-vocabulary,
-  .integral-calculus,
-  .logaritma,
-  .reading-faster {
-    top: calc(50% - 229px);
-    left: calc(50% - 162px);
-  }
-  .aljabar,
-  .integral-calculus,
-  .logaritma,
-  .reading-faster {
-    left: calc(50% + 298px);
-  }
-  .aljabar,
-  .integral-calculus,
-  .logaritma {
-    top: calc(50% - 916px);
-    left: calc(50% - 649px);
-  }
-  .integral-calculus,
-  .logaritma {
-    left: calc(50% - 164px);
-  }
-  .logaritma {
-    left: calc(50% + 298px);
-  }
-  .image-11-icon {
-    position: absolute;
-    top: 801px;
-    left: 317px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .image-28-icon,
-  .image-32-icon,
-  .image-34-icon,
-  .image-35-icon,
-  .image-36-icon {
-    position: absolute;
-    top: 1479px;
-    left: 317px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .image-28-icon,
-  .image-34-icon,
-  .image-35-icon,
-  .image-36-icon {
-    left: 793px;
-  }
-  .image-28-icon,
-  .image-35-icon,
-  .image-36-icon {
-    left: 1264px;
-  }
-  .image-28-icon,
-  .image-36-icon {
-    top: 802px;
-    left: 807px;
-  }
-  .image-36-icon {
-    top: 796px;
-    left: 1264px;
-  }
-  .murid-akan-mempelajari,
-  .murid-akan-mempelajari1,
-  .murid-akan-mempelajari2 {
-    position: absolute;
-    top: 602px;
-    left: 71px;
-    font-size: var(--font-size-xl);
-    display: flex;
-    align-items: center;
-    width: 379px;
-    height: 235px;
-  }
-  .murid-akan-mempelajari1,
-  .murid-akan-mempelajari2 {
-    top: 608px;
-    left: 553px;
-  }
-  .murid-akan-mempelajari2 {
-    top: 590px;
-    left: 1008px;
-  }
-  .image-12-icon {
-    position: absolute;
-    top: 1234px;
-    left: 399px;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .image-14-icon,
-  .image-15-icon,
-  .image-17-icon,
-  .image-18-icon {
-    position: absolute;
-    top: 561px;
-    left: 887px;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .image-14-icon,
-  .image-15-icon,
-  .image-17-icon {
-    top: 563px;
-    left: 405px;
-  }
-  .image-14-icon,
-  .image-15-icon {
-    top: 1234px;
-    left: 1339px;
-  }
-  .image-15-icon {
-    left: 880px;
-  }
-  .image-13-icon,
-  .image-16-icon,
-  .image-19-icon {
-    position: absolute;
-    top: 1745px;
-    left: 53px;
-    width: 390px;
-    height: 225px;
-    object-fit: cover;
-  }
-  .image-16-icon,
-  .image-19-icon {
-    top: 1747px;
-    left: 993px;
-    height: 223px;
-  }
-  .image-19-icon {
-    top: 561px;
-    left: 1345px;
-    width: 50px;
-    height: 50px;
-  }
-  .prinsip-geografi {
-    position: absolute;
-    top: 1976px;
-    left: 991px;
-    font-size: var(--font-size-11xl);
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 238px;
-    height: 51px;
-  }
-  .hr,
-  .hr1,
-  .hr2,
-  .hr3,
-  .hr4,
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    position: absolute;
-    top: 793px;
-    left: 112px;
-    display: flex;
-    align-items: center;
-    width: 136px;
-    height: 39px;
-  }
-  .hr1,
-  .hr2,
-  .hr3,
-  .hr4,
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    top: 789px;
-    left: 1055px;
-  }
-  .hr2,
-  .hr3,
-  .hr4,
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    top: 1474px;
-    left: 112px;
-  }
-  .hr3,
-  .hr4,
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    left: 597px;
-  }
-  .hr4,
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    left: 1052px;
-  }
-  .video1,
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    top: 796px;
-    left: 356px;
-  }
-  .video2,
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    top: 1474px;
-  }
-  .video3,
-  .video4,
-  .video5,
-  .video6 {
-    top: 1470px;
-    left: 834px;
-  }
-  .video4,
-  .video5,
-  .video6 {
-    top: 1474px;
-    left: 1298px;
-  }
-  .video5,
-  .video6 {
-    top: 795px;
-    left: 846px;
-  }
-  .video6 {
-    top: 790px;
-    left: 1298px;
-  }
-  .image-24-icon,
-  .image-25-icon {
-    position: absolute;
-    top: 2160px;
-    left: 61px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .image-25-icon {
-    left: 307px;
-  }
-  .hr5,
-  .video7 {
-    position: absolute;
-    top: 2152px;
-    left: 102px;
-    display: flex;
-    align-items: center;
-    width: 136px;
-    height: 39px;
-  }
-  .video7 {
-    top: 2155px;
-    left: 346px;
-  }
-  .image-27-icon {
-    position: absolute;
-    top: 2160px;
-    left: 1001px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .hr6,
-  .video8 {
-    position: absolute;
-    top: 2152px;
-    left: 1042px;
-    display: flex;
-    align-items: center;
-    width: 136px;
-    height: 39px;
-  }
-  .video8 {
-    top: 2155px;
-    left: 1286px;
-  }
-  .image-26-icon {
-    position: absolute;
-    top: 2159px;
-    left: 543px;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-  .hr7,
-  .video9 {
-    position: absolute;
-    top: 2151px;
-    left: 584px;
-    display: flex;
-    align-items: center;
-    width: 136px;
-    height: 39px;
-  }
-  .video9 {
-    top: 2154px;
-    left: 828px;
-  }
-  .image-21-icon,
-  .image-22-icon,
-  .image-23-icon,
-  .image-8-icon1 {
-    position: absolute;
-    top: 1914px;
-    left: 388px;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .image-22-icon,
-  .image-23-icon,
-  .image-8-icon1 {
-    left: 1328px;
-  }
-  .image-23-icon,
-  .image-8-icon1 {
-    left: 869px;
-  }
-  .image-8-icon1 {
-    top: 799px;
-    left: 553px;
-    width: 30px;
-    height: 30px;
-  }
-  .hr8,
-  .konsep-esensial-geografi {
-    position: absolute;
-    display: flex;
-    align-items: center;
-  }
-  .hr8 {
-    top: 793px;
-    left: 594px;
-    width: 136px;
-    height: 39px;
-  }
-  .konsep-esensial-geografi {
-    top: 2039px;
-    left: 61px;
-    font-size: var(--font-size-xl);
-    width: 358px;
-  }
-  .shape-with-text {
-    position: relative;
-    border-radius: var(--br-7xs);
-    background: linear-gradient(90deg, #38aaeb, #b5ccd9 79.63%);
-    width: 1440px;
-    height: 137px;
-  }
-  .copyright-2024-geniusinteract {
-    position: absolute;
-    top: 58px;
-    left: 353px;
-    white-space: pre-wrap;
-  }
-  .shape-with-text-parent,
-  .shape-with-text1 {
-    position: relative;
-    width: 1440px;
-    height: 137px;
-  }
-  .shape-with-text-parent {
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    color: var(--color-white);
-    font-family: var(--font-inter);
-  }
-  .shape-with-text1 {
-    border-radius: var(--br-7xs);
-    background: linear-gradient(90deg, #38aaeb, #b5ccd9 94.14%);
-  }
-  .interactify {
-    font-family: var(--font-jacques-francois);
-  }
-  .geniusinteractify {
-    position: absolute;
-    top: 37px;
-    left: 32px;
-    font-size: 38px;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    color: var(--color-white);
-    text-align: center;
-    display: inline-block;
-    width: 324px;
-    height: 46px;
-    font-family: var(--font-jacques-francois-shadow);
-  }
-  .home1,
-  
-  .home1 {
-    left: 43px;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    display: inline-block;
-    width: 69px;
-    height: 34px;
-  }
-  
-  .home {
-    position: absolute;
-    top: 44px;
-    left: 825px;
-    width: 112px;
-    height: 34px;
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    color: var(--color-white);
-    font-family: var(--font-jacques-francois);
-  }
-  .forum,
-  
-  .forum {
-    height: 91.89%;
-    width: 63.04%;
-    left: 36.96%;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    display: inline-block;
-  }
-  .vector-parent {
-    position: absolute;
-    top: 43px;
-    left: 1129px;
-    width: 138px;
-    height: 37px;
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    color: var(--color-white);
-    font-family: var(--font-jacques-francois);
-  }
-  
-  .video10 {
-    width: 61.81%;
-    left: 38.19%;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    background: linear-gradient(90deg, #38aaeb, #206085);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-  }
-  .vector-group {
-    position: absolute;
-    top: 44px;
-    left: 1295px;
-    width: 144px;
-    height: 34px;
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    font-family: var(--font-jacques-francois);
-  }
-  .learning {
-    position: absolute;
-    height: 100%;
-    width: 74.26%;
-    top: 0;
-    left: 25.74%;
-    letter-spacing: -0.02em;
-    line-height: 32px;
-    display: inline-block;
-  }
-  
-  .learning-parent {
-    position: absolute;
-    top: 44px;
-    left: 965px;
-    width: 136px;
-    height: 34px;
-    text-align: left;
-    font-size: var(--font-size-5xl);
-    color: var(--color-white);
-    font-family: var(--font-jacques-francois);
-  }
-  .video {
-    width: 100%;
-    position: relative;
-    border-radius: 20px;
-    background-color: var(--color-white);
-    height: 3000px;
-    overflow: hidden;
-    text-align: justify;
-    font-size: var(--font-size-6xl);
-    color: var(--color-black);
-    font-family: var(--font-judson);
-  }
-  
+  position: absolute;
+  top: 146px;
+  left: 15px;
+  border-radius: 15px;
+  background-color: rgba(56, 170, 235, 0.74);
+  width: 1405px;
+  height: 132px;
+}
+.matematika-tka,
+.video-based-learning {
+  font-size: var(--font-size-31xl);
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  color: var(--color-steelblue);
+  text-align: left;
+  display: inline-block;
+  height: 46px;
+}
+.video-based-learning {
+  position: absolute;
+  top: 193px;
+  left: 43px;
+  font-family: var(--font-jacques-francois);
+  width: 578px;
+}
+.matematika-tka {
+  top: 310px;
+  left: 61px;
+  width: 624px;
+}
+.english-tps,
+.lecturer-only,
+.matematika-tka {
+  position: absolute;
+  font-family: var(--font-jacques-francois);
+}
+.english-tps {
+  top: 991px;
+  left: 84px;
+  font-size: var(--font-size-31xl);
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  color: var(--color-steelblue);
+  text-align: left;
+  display: inline-block;
+  width: 578px;
+  height: 46px;
+}
+.lecturer-only {
+  top: 267px;
+  left: 1234px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 126px;
+  height: 38px;
+}
+.rectangle-div,
+.video-child1,
+.video-child2,
+.video-inner,
+.video-item {
+  position: absolute;
+  top: 388px;
+  left: 61px;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 394px;
+  height: 449px;
+}
+.rectangle-div,
+.video-child1,
+.video-child2,
+.video-inner {
+  left: 1001px;
+}
+.rectangle-div,
+.video-child1,
+.video-child2 {
+  left: 543px;
+}
+.video-child1,
+.video-child2 {
+  top: 1069px;
+  left: 61px;
+}
+.video-child2 {
+  left: 543px;
+}
+.image-20-icon,
+.video-child3 {
+  position: absolute;
+  left: 1001px;
+  width: 394px;
+}
+.image-20-icon {
+  top: 390px;
+  height: 223px;
+  object-fit: cover;
+}
+.video-child3 {
+  top: 1069px;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 449px;
+}
+.lihat-semua,
+.lihat-semua1 {
+  position: absolute;
+  top: calc(50% - 617px);
+  left: calc(50% - 647px);
+  font-size: var(--font-size-26xl);
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  color: var(--color-deepskyblue-100);
+  text-align: center;
+}
+.lihat-semua1 {
+  top: calc(50% + 64px);
+}
+.image-1-icon,
+.image-4-icon,
+.image-5-icon,
+.image-7-icon {
+  position: absolute;
+  top: 391px;
+  left: 61px;
+  width: 394px;
+  height: 222px;
+  object-fit: cover;
+}
+.image-4-icon,
+.image-5-icon,
+.image-7-icon {
+  top: 1069px;
+  left: 543px;
+}
+.image-5-icon,
+.image-7-icon {
+  left: 1001px;
+}
+.image-5-icon {
+  top: 1068px;
+  left: 63px;
+}
+.geografis-tka {
+  position: absolute;
+  top: 1667px;
+  left: 74px;
+  font-size: var(--font-size-31xl);
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-family: var(--font-jacques-francois);
+  color: var(--color-steelblue);
+  text-align: left;
+  display: inline-block;
+  width: 578px;
+  height: 46px;
+}
+.video-child4 {
+  position: absolute;
+  top: 1745px;
+  left: 51px;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 394px;
+  height: 449px;
+}
+.konsep-essensial-geografi {
+  position: absolute;
+  top: 1986px;
+  left: 60px;
+  font-size: var(--font-size-11xl);
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 353px;
+  height: 32px;
+}
+.video-child5,
+.video-child6 {
+  position: absolute;
+  top: 1745px;
+  left: 533px;
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 394px;
+  height: 449px;
+}
+.video-child6 {
+  left: 991px;
+}
+.lihat-semua2 {
+  position: absolute;
+  top: calc(50% + 740px);
+  left: calc(50% - 657px);
+  font-size: var(--font-size-26xl);
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  color: var(--color-deepskyblue-100);
+  text-align: center;
+}
+.image-2-icon,
+.image-33-icon,
+.image-8-icon {
+  position: absolute;
+  top: 391px;
+  left: 543px;
+  width: 394px;
+  height: 222px;
+  object-fit: cover;
+}
+.image-33-icon,
+.image-8-icon {
+  top: 801px;
+  left: 71px;
+  width: 30px;
+  height: 30px;
+}
+.image-33-icon {
+  top: 795px;
+  left: 1016px;
+}
+.image-29-icon,
+.image-30-icon,
+.image-31-icon,
+.image-9-icon {
+  position: absolute;
+  top: 1479px;
+  left: 73px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image-30-icon,
+.image-31-icon,
+.image-9-icon {
+  left: 558px;
+}
+.image-31-icon,
+.image-9-icon {
+  left: 1018px;
+}
+.image-9-icon {
+  top: 1745px;
+  left: 535px;
+  width: 390px;
+  height: 225px;
+}
+.students-focus-on,
+.students-learn-speed,
+.the-purpose-of {
+  position: absolute;
+  top: calc(50% - 157px);
+  left: calc(50% - 646px);
+  font-size: var(--font-size-xl);
+  display: flex;
+  align-items: center;
+  width: 367px;
+  height: 108px;
+}
+.students-focus-on,
+.students-learn-speed {
+  top: calc(50% - 153px);
+  left: calc(50% - 164px);
+  font-size: var(--font-size-base);
+}
+.students-learn-speed {
+  left: calc(50% + 296px);
+}
+.aljabar,
+.english-vocabulary,
+.integral-calculus,
+.logaritma,
+.purpose-of-the,
+.reading-faster {
+  position: absolute;
+  top: calc(50% - 231px);
+  left: calc(50% - 646px);
+  font-size: var(--font-size-11xl);
+  display: flex;
+  align-items: center;
+  width: 367px;
+  height: 108px;
+}
+.aljabar,
+.english-vocabulary,
+.integral-calculus,
+.logaritma,
+.reading-faster {
+  top: calc(50% - 229px);
+  left: calc(50% - 162px);
+}
+.aljabar,
+.integral-calculus,
+.logaritma,
+.reading-faster {
+  left: calc(50% + 298px);
+}
+.aljabar,
+.integral-calculus,
+.logaritma {
+  top: calc(50% - 916px);
+  left: calc(50% - 649px);
+}
+.integral-calculus,
+.logaritma {
+  left: calc(50% - 164px);
+}
+.logaritma {
+  left: calc(50% + 298px);
+}
+.image-11-icon {
+  position: absolute;
+  top: 801px;
+  left: 317px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image-28-icon,
+.image-32-icon,
+.image-34-icon,
+.image-35-icon,
+.image-36-icon {
+  position: absolute;
+  top: 1479px;
+  left: 317px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image-28-icon,
+.image-34-icon,
+.image-35-icon,
+.image-36-icon {
+  left: 793px;
+}
+.image-28-icon,
+.image-35-icon,
+.image-36-icon {
+  left: 1264px;
+}
+.image-28-icon,
+.image-36-icon {
+  top: 802px;
+  left: 807px;
+}
+.image-36-icon {
+  top: 796px;
+  left: 1264px;
+}
+.murid-akan-mempelajari,
+.murid-akan-mempelajari1,
+.murid-akan-mempelajari2 {
+  position: absolute;
+  top: 602px;
+  left: 71px;
+  font-size: var(--font-size-xl);
+  display: flex;
+  align-items: center;
+  width: 379px;
+  height: 235px;
+}
+.murid-akan-mempelajari1,
+.murid-akan-mempelajari2 {
+  top: 608px;
+  left: 553px;
+}
+.murid-akan-mempelajari2 {
+  top: 590px;
+  left: 1008px;
+}
+.image-12-icon {
+  position: absolute;
+  top: 1234px;
+  left: 399px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.image-14-icon,
+.image-15-icon,
+.image-17-icon,
+.image-18-icon {
+  position: absolute;
+  top: 561px;
+  left: 887px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.image-14-icon,
+.image-15-icon,
+.image-17-icon {
+  top: 563px;
+  left: 405px;
+}
+.image-14-icon,
+.image-15-icon {
+  top: 1234px;
+  left: 1339px;
+}
+.image-15-icon {
+  left: 880px;
+}
+.image-13-icon,
+.image-16-icon,
+.image-19-icon {
+  position: absolute;
+  top: 1745px;
+  left: 53px;
+  width: 390px;
+  height: 225px;
+  object-fit: cover;
+}
+.image-16-icon,
+.image-19-icon {
+  top: 1747px;
+  left: 993px;
+  height: 223px;
+}
+.image-19-icon {
+  top: 561px;
+  left: 1345px;
+  width: 50px;
+  height: 50px;
+}
+.prinsip-geografi {
+  position: absolute;
+  top: 1976px;
+  left: 991px;
+  font-size: var(--font-size-11xl);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+  height: 51px;
+}
+.hr,
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  position: absolute;
+  top: 793px;
+  left: 112px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 39px;
+}
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  top: 789px;
+  left: 1055px;
+}
+.hr2,
+.hr3,
+.hr4,
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  top: 1474px;
+  left: 112px;
+}
+.hr3,
+.hr4,
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  left: 597px;
+}
+.hr4,
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  left: 1052px;
+}
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  top: 796px;
+  left: 356px;
+}
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+  top: 1474px;
+}
+.video3,
+.video4,
+.video5,
+.video6 {
+  top: 1470px;
+  left: 834px;
+}
+.video4,
+.video5,
+.video6 {
+  top: 1474px;
+  left: 1298px;
+}
+.video5,
+.video6 {
+  top: 795px;
+  left: 846px;
+}
+.video6 {
+  top: 790px;
+  left: 1298px;
+}
+.image-24-icon,
+.image-25-icon {
+  position: absolute;
+  top: 2160px;
+  left: 61px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.image-25-icon {
+  left: 307px;
+}
+.hr5,
+.video7 {
+  position: absolute;
+  top: 2152px;
+  left: 102px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 39px;
+}
+.video7 {
+  top: 2155px;
+  left: 346px;
+}
+.image-27-icon {
+  position: absolute;
+  top: 2160px;
+  left: 1001px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.hr6,
+.video8 {
+  position: absolute;
+  top: 2152px;
+  left: 1042px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 39px;
+}
+.video8 {
+  top: 2155px;
+  left: 1286px;
+}
+.image-26-icon {
+  position: absolute;
+  top: 2159px;
+  left: 543px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.hr7,
+.video9 {
+  position: absolute;
+  top: 2151px;
+  left: 584px;
+  display: flex;
+  align-items: center;
+  width: 136px;
+  height: 39px;
+}
+.video9 {
+  top: 2154px;
+  left: 828px;
+}
+.image-21-icon,
+.image-22-icon,
+.image-23-icon,
+.image-8-icon1 {
+  position: absolute;
+  top: 1914px;
+  left: 388px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.image-22-icon,
+.image-23-icon,
+.image-8-icon1 {
+  left: 1328px;
+}
+.image-23-icon,
+.image-8-icon1 {
+  left: 869px;
+}
+.image-8-icon1 {
+  top: 799px;
+  left: 553px;
+  width: 30px;
+  height: 30px;
+}
+.hr8,
+.konsep-esensial-geografi {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.hr8 {
+  top: 793px;
+  left: 594px;
+  width: 136px;
+  height: 39px;
+}
+.konsep-esensial-geografi {
+  top: 2039px;
+  left: 61px;
+  font-size: var(--font-size-xl);
+  width: 358px;
+}
+.shape-with-text {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background: linear-gradient(90deg, #38aaeb, #b5ccd9 79.63%);
+  width: 1440px;
+  height: 137px;
+}
+.copyright-2024-geniusinteract {
+  position: absolute;
+  top: 58px;
+  left: 353px;
+  white-space: pre-wrap;
+}
+.shape-with-text-parent,
+.shape-with-text1 {
+  position: relative;
+  width: 1440px;
+  height: 137px;
+}
+.shape-with-text-parent {
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.shape-with-text1 {
+  border-radius: var(--br-7xs);
+  background: linear-gradient(90deg, #38aaeb, #b5ccd9 94.14%);
+}
+.interactify {
+  font-family: var(--font-jacques-francois);
+}
+.geniusinteractify {
+  position: absolute;
+  top: 37px;
+  left: 32px;
+  font-size: 38px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 324px;
+  height: 46px;
+  font-family: var(--font-jacques-francois-shadow);
+}
+.home1,
+
+.home1 {
+  left: 43px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  display: inline-block;
+  width: 69px;
+  height: 34px;
+}
+
+.home {
+  position: absolute;
+  top: 44px;
+  left: 825px;
+  width: 112px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-jacques-francois);
+}
+.forum,
+
+.forum {
+  height: 91.89%;
+  width: 63.04%;
+  left: 36.96%;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  display: inline-block;
+}
+.vector-parent {
+  position: absolute;
+  top: 43px;
+  left: 1129px;
+  width: 138px;
+  height: 37px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-jacques-francois);
+}
+
+.video10 {
+  width: 61.81%;
+  left: 38.19%;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  background: linear-gradient(90deg, #38aaeb, #206085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.vector-group {
+  position: absolute;
+  top: 44px;
+  left: 1295px;
+  width: 144px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-jacques-francois);
+}
+.learning {
+  position: absolute;
+  height: 100%;
+  width: 74.26%;
+  top: 0;
+  left: 25.74%;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.learning-parent {
+  position: absolute;
+  top: 44px;
+  left: 965px;
+  width: 136px;
+  height: 34px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-jacques-francois);
+}
+.video {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  background-color: var(--color-white);
+  height: 3000px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-judson);
+}
